@@ -20,8 +20,8 @@ export default function App() {
     { label: "These Stickers", href: "https://thesestickers.com" },
   ];
 
-  // Your real Tally URL (you said you've replaced it already)
-  const tallyUrl = "https://tally.so/r/YOUR_TALLY_ID";
+  // Contact Tally URL
+  const tallyUrl = "https://tally.so/r/w8qkjP";
 
   return (
     <div className="page">
