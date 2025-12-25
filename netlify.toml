@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# Single-page app routing safety (even though this is one page)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
