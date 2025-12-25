@@ -1,24 +1,27 @@
 import React from "react";
-import profileImg from "./assets/profile.jpg";
+import profileImg from "./assets/profile.png";
 import Section from "./components/Section.jsx";
 import ButtonLink from "./components/ButtonLink.jsx";
 import SubstackEmbed from "./components/SubstackEmbed.jsx";
 
 export default function App() {
-  const contactEmail = (import.meta.env.VITE_CONTACT_EMAIL || "you@example.com").trim();
-
   const websites = [
-    { label: "Blog", href: "https://emanoj.substack.com/" },
+    { label: "Blog", href: "https://emanoj.substack.com" },
     { label: "Podcast", href: "https://manojspeaks.com" },
     { label: "YouTube", href: "https://www.youtube.com/@checkoutaustralia" },
     { label: "Cooking", href: "https://unrecipes.net" },
-    { label: "Tees", href: "https://theredboxtees.com" }
+    { label: "Photography", href: "https://unsplash.com/@emanoj_" },
   ];
 
   const projects = [
-    { label: "ShareYourKofi", href: "https://shareyourkofi.com" },
-    { label: "Purple Dino Books", href: "https://purpledinobooks.com" }
+    { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
+    { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
+    { label: "The Red Box Tees", href: "https://theredboxtees.com" },
+    { label: "These Stickers", href: "https://thesestickers.com" },
   ];
+
+  // Your real Tally URL (you said you've replaced it already)
+  const tallyUrl = "https://tally.so/r/YOUR_TALLY_ID";
 
   return (
     <div className="page">
@@ -27,20 +30,21 @@ export default function App() {
           <header className="hero">
             <img className="avatar" src={profileImg} alt="Manoj Kumar" />
             <div>
-              <h1 className="hi">Hi, I am Manoj Kumar</h1>
+              <h1 className="hi">Hi, I am Manoj Kumar. Nice to meet you :)</h1>
               <p className="summary">
-                I am currently based in Sydney, Australia. Along my full-time job, I have a passion
-                for building useful online tools, telling stories, and sharing ideas. I enjoy coding
-                web apps, drawing quirky illustrations, writing children’s books, blogging my
-                thoughts & opinions, traveling Australia, making podcasts, and experimenting in the
-                kitchen.
+                I am currently based in Sydney, Australia. Along with my full-time job, I have a
+                passion for the creator economy - building useful online tools, telling stories, and
+                sharing ideas. I enjoy coding web apps, drawing quirky illustrations, writing
+                children’s books, blogging my thoughts & opinions, traveling Australia, making
+                podcasts, and experimenting in the kitchen. By the way, I make AI movies & assist
+                filmmakers and music bands with camera work too! :)
               </p>
             </div>
           </header>
 
           <main className="grid" style={{ padding: "0 16px 16px" }}>
             <div style={{ display: "grid", gap: 14 }}>
-              <Section title="Websites I own">
+              <Section title="My Content">
                 <div className="buttons">
                   {websites.map((x) => (
                     <ButtonLink key={x.label} href={x.href} variant="primary">
@@ -49,7 +53,7 @@ export default function App() {
                   ))}
                 </div>
                 <p className="small" style={{ margin: "12px 0 0" }}>
-                  Tip: replace the placeholder links (Podcast/Cooking/Tees) with your real URLs.
+                  Check them out and engage with me there!
                 </p>
               </Section>
 
@@ -66,31 +70,27 @@ export default function App() {
               <Section title="Contact">
                 <div className="buttons">
                   <a
-                  className="btn btn-primary"
-                  href="https://tally.so/r/w8qkjP"
-                  target="_blank"
-                  rel="noreferrer"
+                    className="btn btn-primary"
+                    href={tallyUrl}
+                    target="_blank"
+                    rel="noreferrer"
                   >
                     Contact Me <span aria-hidden="true">✉</span>
-                    </a>
-                    </div>
+                  </a>
+                </div>
               </Section>
-
             </div>
 
             <div style={{ display: "grid", gap: 14 }}>
-              <Section title="Subscribe (Substack)">
+              <Section title="Newsletter Subscription on Substack">
                 <SubstackEmbed />
-                <p className="small" style={{ margin: "12px 0 0" }}>
-                  This is the official iFrame-based Substack embed form (limited styling by design). :contentReference[oaicite:2]{index=2}
-                </p>
               </Section>
             </div>
           </main>
 
           <footer className="footer">
             <div className="small">© {new Date().getFullYear()} Manoj Kumar</div>
-            <div className="small">Minimal. Fast. Mobile-first.</div>
+            <div className="small">Thank you so much for visiting the site!</div>
           </footer>
         </div>
       </div>
