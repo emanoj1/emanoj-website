@@ -35,9 +35,9 @@ export default function App() {
                 I am currently based in Sydney, Australia. Along with my full-time job, I have a
                 passion for the creator economy - building useful online tools, telling stories, and
                 sharing ideas. I enjoy coding web apps, drawing quirky illustrations, writing
-                children’s books, blogging my thoughts & opinions, traveling Australia, making
-                podcasts, and experimenting in the kitchen. By the way, I make AI movies & assist
-                filmmakers and music bands with camera work too! :)
+                books, blogging my thoughts & opinions, traveling Australia, making
+                podcasts, and experimenting in the kitchen. I make AI movies & assist
+                filmmakers and music bands with camera work too! :) So much to do, so little time.
               </p>
             </div>
           </header>
