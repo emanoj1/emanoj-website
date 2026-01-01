@@ -8,7 +8,6 @@ export default function MakeAiMovies() {
     <div className="page">
       <div className="shell">
         <div className="card">
-
           {/* Top bar / back navigation */}
           <header
             style={{
@@ -32,10 +31,8 @@ export default function MakeAiMovies() {
 
           {/* Main content */}
           <main className="grid" style={{ padding: "16px" }}>
-
             {/* LEFT COLUMN — explanation */}
             <div style={{ display: "grid", gap: 14 }}>
-
               {/* Hero */}
               <Section>
                 <div style={{ display: "flex", gap: 14, alignItems: "center" }}>
@@ -67,9 +64,9 @@ export default function MakeAiMovies() {
                 </div>
 
                 <p className="summary" style={{ marginTop: 10 }}>
-                  A beginner-friendly LIVE & 1-on-1 tutorial session to help you create your
-                  first AI-generated short film - calmly, practically, and
-                  without hype.
+                  A beginner-friendly LIVE & 1-on-1 tutorial session to help you
+                  create your first AI-generated short film - calmly,
+                  practically, and without hype.
                 </p>
               </Section>
 
@@ -77,8 +74,9 @@ export default function MakeAiMovies() {
                 <p className="body">
                   A 60-minute personal session where we walk through the entire
                   AI movie-making workflow - tools, prompts, scene generation,
-                  motion, dialogues, and common beginner mistakes. I will also cover how to arrange them 
-                  all in video editor to export as a movie file.
+                  motion, dialogues, and common beginner mistakes. I will also
+                  cover how to arrange them all in video editor to export as a
+                  movie file.
                 </p>
               </Section>
 
@@ -100,17 +98,18 @@ export default function MakeAiMovies() {
 
               <Section title="Things to know">
                 <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
-                  <li>Tutorial conducted on weekends and/or Australian public holidays</li>
+                  <li>
+                    Tutorial conducted on weekends and/or Australian public
+                    holidays
+                  </li>
                   <li>AEST Time Zone only</li>
                   <li>No additional people in your own booking. Just you.</li>
                 </ul>
               </Section>
-
             </div>
 
             {/* RIGHT COLUMN — proof + action */}
             <div style={{ display: "grid", gap: 14 }}>
-
               <Section title="Some clips from AI movies I’ve made">
                 <div
                   style={{
@@ -123,7 +122,7 @@ export default function MakeAiMovies() {
                   }}
                 >
                   <iframe
-                    src="https://youtu.be/KJDNvmlki_A"
+                    src="https://www.youtube-nocookie.com/embed/KJDNvmlki_A"
                     title="AI movie collage"
                     style={{
                       position: "absolute",
@@ -133,57 +132,57 @@ export default function MakeAiMovies() {
                       height: "100%",
                       border: 0,
                     }}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
                   />
                 </div>
 
                 <p className="small" style={{ marginTop: 10 }}>
-                  Created using AI tools - characters, scenes, dialogue,
-                  motion, and mood.
+                  Created using AI tools - characters, scenes, dialogue, motion,
+                  and mood.
                 </p>
               </Section>
 
               <Section title="How much">
                 <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
-                  <li><strong>US$ 29 only.</strong> 2026 Introductory price!</li>
-                  <li>You can <strong>pay after the completion</strong> of your tutorial! :) I want you to be satisfied before spending.</li>
+                  <li>
+                    <strong>US$ 29 only.</strong> 2026 Introductory price!
+                  </li>
+                  <li>
+                    You can <strong>pay after the completion</strong> of your
+                    tutorial! :) I want you to be satisfied before spending.
+                  </li>
                   <li>Payments handled securely by Stripe Payments.</li>
                 </ul>
               </Section>
 
               <Section title="Next step">
                 <div className="buttons">
-                <ButtonLink
-                href="https://tally.so/r/lbeeWX"
-                variant="primary"
-                target="_blank"
-                rel="noreferrer"
-                >
+                  <ButtonLink
+                    href="https://tally.so/r/lbeeWX"
+                    variant="primary"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     Contact me to schedule your 1-on-1 session
-                </ButtonLink>
+                  </ButtonLink>
                 </div>
 
                 <p className="small" style={{ marginTop: 10 }}>
-                  No prior experience required. If you can use a browser,
-                  you’re good. We will use Zoom, Teams, Google Hangouts or something else to connect virtually.
+                  No prior experience required. If you can use a browser, you’re
+                  good. We will use Zoom, Teams, Google Hangouts or something
+                  else to connect virtually.
                 </p>
               </Section>
-
-
             </div>
-            
-
           </main>
 
           <footer className="footer">
             <div className="small">
               © {new Date().getFullYear()} Manoj Kumar
             </div>
-            <div className="small">
-              Beginner-friendly · No hype · Human-led
-            </div>
+            <div className="small">Beginner-friendly · No hype · Human-led</div>
           </footer>
-
         </div>
       </div>
     </div>
