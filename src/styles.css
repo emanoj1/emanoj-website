@@ -13,6 +13,8 @@
     --radius: 18px;
     --radius-lg: 26px;
     --maxw: 860px;
+
+    --accent: #2f6f6b; 
   }
   
 
@@ -134,7 +136,7 @@
     font-weight: 700;
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    color: var(--faint);
+    color: var(--accent);
   }
   
   .buttons {
@@ -165,7 +167,7 @@
   
   .btn:hover {
     transform: translateY(-1px);
-    background: rgba(255, 255, 255, 0.07);
+    background: #5a4fe0;
     border-color: rgba(255, 255, 255, 0.18);
   }
   
@@ -174,7 +176,9 @@
   }
   
   .btn-primary {
-    background: rgba(255, 255, 255, 0.10);
+    background: var(--accent);
+    color: white;
+    border-color: transparent;
   }
   
   .footer {
@@ -216,6 +220,18 @@
   @media (min-width: 860px) {
     .embedFrame {
       height: 360px;
+    }
+  }
+  
+  .body {
+    font-size: 14.5px;
+    line-height: 1.55;
+    color: var(--muted);
+  }
+  
+  @media (min-width: 720px) {
+    .body {
+      font-size: 15.5px;
     }
   }
   
