@@ -164,7 +164,7 @@ export default function MakeAiMovies() {
                   </li>
                   <li>
                     You can <strong>pay after the completion</strong> of your
-                    tutorial! :) I want you to be satisfied before spending.
+                    tutorial! :) Your satisfaction first!
                   </li>
                   <li>Payments handled securely by Stripe Payments.</li>
                 </ul>
