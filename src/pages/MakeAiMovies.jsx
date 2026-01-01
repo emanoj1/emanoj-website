@@ -90,8 +90,8 @@ export default function MakeAiMovies() {
 
               <Section title="What you’ll walk away with">
                 <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
-                  <li>Your first AI-generated scene or video</li>
-                  <li>A clear understanding of the workflow</li>
+                  <li>Help create your first AI-generated video clip</li>
+                  <li>A clear understanding of the workflow & tools used</li>
                   <li>Confidence to keep experimenting</li>
                 </ul>
               </Section>
@@ -141,6 +141,20 @@ export default function MakeAiMovies() {
                   Created using AI tools - characters, scenes, dialogue, motion,
                   and mood.
                 </p>
+              </Section>
+
+              <Section title="My achievements">
+                <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
+                  <li>
+                    Learned AI movie-making independently via hands-on
+                    experimentation
+                  </li>
+                  <li>So far created 9 short AI movies & 1 music video</li>
+                  <li>
+                    Received an Honourable Mention at the AI Film Festival,
+                    Venice (2025)
+                  </li>
+                </ul>
               </Section>
 
               <Section title="How much">
