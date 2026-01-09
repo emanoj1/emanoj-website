@@ -14,10 +14,11 @@ export default function Home() {
   ];
 
   const projects = [
+    { label: "featureless", href: "https://featureless.app" },
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
     { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
     { label: "The Red Box Tees", href: "https://theredboxtees.com" },
-    { label: "These Stickers", href: "https://thesestickers.com" },
+    { label: "These Stickers", href: "https://thesestickers.com" },    
   ];
   
 
