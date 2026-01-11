@@ -77,7 +77,7 @@ export default function Home() {
 
   <div className="buttons">
     <ButtonLink href="/make-ai-movies" variant="primary">
-      Make AI Movies (Beginner 1:1)
+      Make AI Movies
     </ButtonLink>
   </div>
 </Section>
