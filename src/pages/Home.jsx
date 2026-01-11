@@ -81,8 +81,15 @@ export default function Home() {
                   <ButtonLink href="/make-ai-movies" variant="primary">
                     Make AI Movies
                   </ButtonLink>
+
+                  <ButtonLink href="/learn-to-code-quick" variant="primary">
+                    Quickly Launch Web Apps
+                  </ButtonLink>
+
                 </div>
               </Section>
+
+              
 
               <Section title="Contact">
                 <div className="buttons">
