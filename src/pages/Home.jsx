@@ -18,9 +18,8 @@ export default function Home() {
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
     { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
     { label: "The Red Box Tees", href: "https://theredboxtees.com" },
-    { label: "These Stickers", href: "https://thesestickers.com" },    
+    { label: "These Stickers", href: "https://thesestickers.com" },
   ];
-  
 
   // Contact Tally URL
   const tallyUrl = "https://tally.so/r/w8qkjP";
@@ -34,12 +33,14 @@ export default function Home() {
             <div>
               <h1 className="hi">Hi, I am Manoj Kumar. Nice to meet you :)</h1>
               <p className="summary">
-                I am currently based in Sydney, Australia. Along with my full-time job, I have a
-                passion for the creator economy - building useful online tools, telling stories, and
-                sharing ideas. I enjoy coding web apps, drawing quirky illustrations, writing
-                books, blogging my thoughts & opinions, traveling Australia, making
-                podcasts, and experimenting in the kitchen. I make AI movies & assist
-                filmmakers and music bands with camera work too! :) So much to do, so little time.
+                I am currently based in Sydney, Australia. Along with my
+                full-time job, I have a passion for the creator economy -
+                building useful online tools, telling stories, and sharing
+                ideas. I enjoy coding web apps, drawing quirky illustrations,
+                writing books, blogging my thoughts & opinions, traveling
+                Australia, making podcasts, and experimenting in the kitchen. I
+                make AI movies & assist filmmakers and music bands with camera
+                work too! :) So much to do, so little time.
               </p>
             </div>
           </header>
@@ -70,17 +71,18 @@ export default function Home() {
               </Section>
 
               <Section title="Learn from me">
-  <p className="small" style={{ marginBottom: 12 }}>
-    I occasionally teach beginner-friendly sessions based on things I’ve
-    learned by doing — calmly, practically, and without hype.
-  </p>
+                <p className="small" style={{ marginBottom: 12 }}>
+                  I occasionally teach beginner-friendly sessions based on
+                  things I’ve learned by doing — calmly, practically, and
+                  without hype.
+                </p>
 
-  <div className="buttons">
-    <ButtonLink href="/make-ai-movies" variant="primary">
-      Make AI Movies
-    </ButtonLink>
-  </div>
-</Section>
+                <div className="buttons">
+                  <ButtonLink href="/make-ai-movies" variant="primary">
+                    Make AI Movies
+                  </ButtonLink>
+                </div>
+              </Section>
 
               <Section title="Contact">
                 <div className="buttons">
@@ -104,8 +106,12 @@ export default function Home() {
           </main>
 
           <footer className="footer">
-            <div className="small">© {new Date().getFullYear()} Manoj Kumar</div>
-            <div className="small">Thank you so much for visiting the site!</div>
+            <div className="small">
+              © {new Date().getFullYear()} Manoj Kumar
+            </div>
+            <div className="small">
+              Thank you so much for visiting the site!
+            </div>
           </footer>
         </div>
       </div>
