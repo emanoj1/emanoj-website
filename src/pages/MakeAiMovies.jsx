@@ -72,7 +72,7 @@ export default function MakeAiMovies() {
 
               <Section title="What this is">
                 <p className="body">
-                  A 60-minute personal session where we walk through the entire
+                  A 90-minute personal session where we walk through the entire
                   AI movie-making workflow - tools, prompts, scene generation,
                   motion, dialogues, and common beginner mistakes. I will also
                   cover how to arrange them all in video editor to export as a
@@ -160,25 +160,21 @@ export default function MakeAiMovies() {
               <Section title="How much">
                 <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
                   <li>
-                    <strong>US$ 29 only.</strong> 2026 Introductory price!
+                    <strong>US$65 / A$100 only.</strong> 2026 Introductory price!
                   </li>
-                  <li>
-                    You can <strong>pay after the completion</strong> of your
-                    tutorial! :) Your satisfaction first!
-                  </li>
-                  <li>Payments handled securely by Stripe Payments.</li>
+                  <li>Payments handled securely by Stripe Payments on my <strong>The Leap</strong> profile link below.</li>
                 </ul>
               </Section>
 
               <Section title="Next step">
                 <div className="buttons">
                   <ButtonLink
-                    href="https://tally.so/r/lbeeWX"
+                    href="https://theleap.co/@manoj/coaching/learn-to-make-your-first-ai-movie"
                     variant="primary"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Contact me to schedule your 1-on-1 session
+                    Book your 1-on-1 session now!
                   </ButtonLink>
                 </div>
 
