@@ -14,6 +14,7 @@ export default function Home() {
   ];
 
   const projects = [
+    { label: "interview monk", href: "https://interviewmonk.co" },
     { label: "featureless", href: "https://featureless.app" },
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
     { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
@@ -31,7 +32,7 @@ export default function Home() {
           <header className="hero">
             <img className="avatar" src={profileImg} alt="Manoj Kumar" />
             <div>
-              <h1 className="hi">Hi, I am Manoj Kumar. Nice to meet you :)</h1>
+              <h1 className="hi">Hi 👋 I am Manoj Kumar. Nice to meet you!</h1>
               <p className="summary">
                 I am currently based in Sydney, Australia. Along with my
                 full-time job, I have a passion for the creator economy -
@@ -47,7 +48,7 @@ export default function Home() {
 
           <main className="grid" style={{ padding: "0 16px 16px" }}>
             <div style={{ display: "grid", gap: 14 }}>
-              <Section title="My Content">
+              <Section title="My Content ✍">
                 <div className="buttons">
                   {websites.map((x) => (
                     <ButtonLink key={x.label} href={x.href} variant="primary">
@@ -60,7 +61,7 @@ export default function Home() {
                 </p>
               </Section>
 
-              <Section title="Creator projects">
+              <Section title="Creator projects 🚀">
                 <div className="buttons">
                   {projects.map((x) => (
                     <ButtonLink key={x.label} href={x.href}>
@@ -70,7 +71,7 @@ export default function Home() {
                 </div>
               </Section>
 
-              <Section title="Learn from me">
+              <Section title="Learn from me 👨‍🎓">
                 <p className="small" style={{ marginBottom: 12 }}>
                   I occasionally teach beginner-friendly sessions based on
                   things I’ve learned by doing — calmly, practically, and
@@ -91,7 +92,7 @@ export default function Home() {
 
               
 
-              <Section title="Contact">
+              <Section title="Contact 📫">
                 <div className="buttons">
                   <a
                     className="btn btn-primary"
