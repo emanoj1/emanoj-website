@@ -14,6 +14,7 @@ export default function Home() {
   ];
 
   const projects = [
+    { label: "Client Logo Wall", href: "https://clientlogowall.com" },
     { label: "interview monk", href: "https://interviewmonk.co" },
     { label: "featureless", href: "https://featureless.app" },
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
