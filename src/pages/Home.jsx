@@ -14,8 +14,9 @@ export default function Home() {
   ];
 
   const projects = [
+    { label: "FirstPerson.me", href: "https://firstperson.me" },
     { label: "Client Logo Wall", href: "https://clientlogowall.com" },
-    { label: "interview monk", href: "https://interviewmonk.co" },
+    { label: "Interview Monk", href: "https://interviewmonk.co" },
     { label: "featureless", href: "https://featureless.app" },
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
     { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
