@@ -14,6 +14,7 @@ export default function Home() {
   ];
 
   const projects = [
+    { label: "HeyMyBand", href: "https://heymyband.com" },
     { label: "FirstPerson.me", href: "https://firstperson.me" },
     { label: "Client Logo Wall", href: "https://clientlogowall.com" },
     { label: "Interview Monk", href: "https://interviewmonk.co" },
