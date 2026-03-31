@@ -26,6 +26,7 @@ export default function Home() {
 
   const creations = [
     { label: "Purple Dino Books", href: "https://purpledinobooks.com" },
+    { label: "Chester, The Dino", href: "https://chesterthedino.com" },
     { label: "The Red Box Tees", href: "https://theredboxtees.com" },
     { label: "These Stickers", href: "https://thesestickers.com" },
   ];
