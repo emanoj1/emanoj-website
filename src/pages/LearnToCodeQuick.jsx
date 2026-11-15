@@ -154,7 +154,6 @@ export default function LearnToCodeQuick() {
             <div style={{ display: "grid", gap: 14 }}>
             <Section title="Some projects I’ve built">
                 <ul className="body" style={{ paddingLeft: 16, margin: 0 }}>
-                    <li><a href="https://featureless.app" target="_blank" rel="noreferrer">featureless.app</a></li>
                     <li><a href="https://shareyourkofi.com" target="_blank" rel="noreferrer">shareyourkofi.com</a></li>
                     <li><a href="https://purpledinobooks.com" target="_blank" rel="noreferrer">purpledinobooks.com</a></li>
                     <li><a href="https://theredboxtees.com" target="_blank" rel="noreferrer">theredboxtees.com</a></li>
