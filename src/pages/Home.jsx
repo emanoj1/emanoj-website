@@ -9,7 +9,6 @@ export default function Home() {
     { label: "Blog", href: "https://emanoj.substack.com" },
     { label: "Podcast", href: "https://manojspeaks.com" },
     { label: "Check Out Australia YouTube", href: "https://www.youtube.com/@checkoutaustralia" },
-    { label: "UnRecipes cooking site", href: "https://unrecipes.net" },
     { label: "UnRecipes YouTube", href: "https://www.youtube.com/@UnRecipes" },
     { label: "Photography", href: "https://unsplash.com/@emanoj_" },
   ];
@@ -17,10 +16,7 @@ export default function Home() {
   const projects = [
     { label: "StarterBP", href: "https://starterbp.com" },
     { label: "HeyMyBand", href: "https://heymyband.com" },
-    { label: "FirstPerson.me", href: "https://firstperson.me" },
     { label: "Client Logo Wall", href: "https://clientlogowall.com" },
-    { label: "Interview Monk", href: "https://interviewmonk.co" },
-    { label: "featureless", href: "https://featureless.app" },
     { label: "Share Your Kofi", href: "https://shareyourkofi.com" },
   ];
 
